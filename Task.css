@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 3em;
+}
+
+body{
+    background-color: rgb(27, 28, 27);
+    border: solid;
+    border-color: rgb(18, 3, 28);
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/585/730/non_2x/abstract-dark-purple-background-overlap-layer-on-dark-space-for-background-design-exclusive-wallpaper-design-for-poster-brochure-presentation-website-etc-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    background-attachment:fixed;
+}
+nav{
+    color: rgb(160, 160, 160);
+    display: flex;
+    flex-direction: row;  
+}
+
+
+header{
+    color: rgb(194, 198, 202);
+    background-color: rgb(14, 15, 14);
+    height: 6.5rem;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    border: 6px ;
+    border-style:inset ;
+    border-color: rgb(56, 8, 58);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 4px 10px rgb(36, 36, 36);
+    background-image: url('https://thumbs.dreamstime.com/b/technology-digital-matrix-dark-black-background-binary-code-violet-purple-color-technology-digital-matrix-dark-154861557.jpg');
+    background-position: fixed;
+}
+#img1{
+    height: 110px;
+    width: 110px;
+    margin-top: 0.3vh;
+    margin-left: 2.5vw;
+}
+
+#mainlogo{
+    font-size: 2.1vw;
+    margin-left: 17vw;
+    margin-top: 5vh;
+    
+} 
+#home{
+    font-size: 1.5vw;
+    margin-left: 27vw;
+    margin-top: 5vh;
+}
+#about,#contact{
+    font-size: 1.5vw;
+    margin-left: 3vw;
+    margin-top: 5vh;
+}
+
+a{
+    color:rgb(185, 185, 185) ;
+    text-decoration: none;
+}
+#home:hover{
+    text-decoration: underline;
+    scale: 1.1;
+}
+.h{
+    background-color: rgb(14, 15, 14) ;
+    padding: 0.6%;
+    margin: 2% 72% 2% 11%;
+    border: 4px inset;
+    border-color:  rgb(49, 3, 47);
+    border-radius: 10px;
+    color: rgb(185, 185, 185);
+    box-shadow: 2px 2px 6px rgb(36, 36, 36);
+    display: flex;
+    font-size: 110% ;
+    font-family: link rel="preconnect" href="https://fonts.googleapis.com"
+    link rel="preconnect" href="https://fonts.gstatic.com" crossorigin
+    link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&display=swap" rel="stylesheet";
+   
+
+
+}
+#img2,#img3{
+    height: 3vh ;
+    width: 3vh;
+}
+
+input{
+    font-size: 86%;
+    background-color:  rgb(26, 25, 25);
+    color: rgb(162, 161, 161);
+    padding: 0.2vw;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 4px;
+}
+
+li{
+    color:  rgb(194, 198, 202);
+    margin: 2% 40% 2% 12% ;
+    padding: 0.9%;
+    background-color: rgb(14, 15, 14);
+    border: 4px inset ;
+    border-color: rgb(49, 3, 47);
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgb(36, 36, 36);
+    font-size: 130%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+::placeholder{
+    color: rgb(147, 146, 146);
+    font-weight: normal;
+   
+   
+}
+textarea{
+    
+    padding: 0.2vw;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 4px;
+}
+#g1,#g2,#g3,#g4,#g5,#g6,#g7,#g8,#g9,#g10{
+    font-size: smaller;
+    padding: 0.15vw;
+}
+
+
+.e1{
+    font-size: 72%;
+}
+.low{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#submit{
+    background-color: rgba(35, 35, 35, 0.855);
+    color:rgb(147, 147, 147) ;
+    font-size: 135%;
+    margin-left: 43vw;
+    margin-right: 5vw;
+    margin-bottom: 3%;
+}
+#reset{
+    background-color: rgba(35, 35, 35, 0.855);
+    color:rgb(147, 147, 147) ;
+    font-size: 135%;
+    margin-bottom: 3%;
+}
+.why{
+    display: flex;
+    flex-direction: row;
+}
+#why1{
+    margin: auto;
+    background-color:  rgb(26, 25, 25);
+    color: rgb(162, 161, 161);
+    font-size: large;
+}
+#result{
+    background-color: rgba(35, 35, 35, 0.855);
+    color:rgb(255, 255, 255) ;
+    font-size: 135%;
+    margin-left: 43vw;
+    margin-right: 43vw;
+    margin-bottom: 3%;
+    padding: 0.2vw;
+    border: 4px inset;
+    border-color: rgb(49, 3, 47);
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(14, 15, 14);
+    color: rgb(128, 128, 128);
+    margin: 4vw 35vw ;
+    padding: 0.8%;
+    border: 4px inset;
+    border-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    font-size: 130%;
+}

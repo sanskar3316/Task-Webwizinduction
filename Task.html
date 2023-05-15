@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Webwiz club induction form</title>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/68654423?s=280&v=4">
+    <link rel="stylesheet" href="Task.css">
+    <!-- Full Name, Gender, Email, Institute Email, Roll Number, Phone Number, Branch and Field of Interest(Tech, Design, etc.) -->
+</head>
+
+<body>
+    <form id="validation-form">
+        <div class="navbar">
+            
+        </div>
+        <header>
+            <div>
+                <img src="logo.png" alt="Webwiz official logo" id="img1">
+            </div>
+            <div id="mainlogo">
+                <p>
+                    < /WEBWIZ >  
+                </p>
+            </div>
+            <div id="home">
+                
+                <a href="https://webwiznitr.netlify.app/">Home</a>
+             </div>
+             <div id="about">
+                <a href=""></a>
+                About us 
+             </div>
+             <div id="contact">
+                Contact 
+             </div>
+        </header>
+        <div>
+
+        </div>
+        <div class="h">
+            <h3>
+                Enter your details <img src="hand.png" alt="emojji" id="img2">:
+            </h3>
+        </div>
+        <div class="details">
+            <ul type="disc">
+                <li>
+                    <label for="Name">Name <img src="cool.png" alt="emoji" id="img3"> :
+                    </label>
+                    <input type="text" placeholder="First name" id="p1">
+                    <input type="text" placeholder="Last name" id="p2">
+                </li>
+                <li>
+                    <label for="gender" id="gender">Select your gender: </label>
+                    <input type="radio" value="male" name="gender"><label id="g1">Male</label>
+                    <input type="radio" value="Female" name="gender"><label id="g2">Female </label>
+                    <input type="radio" value="others" name="gender"><label id="g3">Others</label>
+                </li>
+                <li>
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" placeholder="Enter valid email">
+                    <label for="email" class="e1">(should be gmail or outlook or hotmail)
+                    </label>
+                </li>
+                <li>
+                    <label for="email">
+                        Institute E-mail: </label>
+                    <input type="email" id="iemail" placeholder="Enter Institute email">
+                </li>
+                <li>
+                    <label for="Number">Phone Number:</label>
+                    <input type="tel" id="phone" placeholder="Enter your number">
+                    <label for="phone" class="e1">
+                        (should start with +91 and must be 10 digits)
+                    </label>
+                </li>
+                <li>
+                    <label for="roll">Roll Number: </label>
+                    <input type="text" id="roll" placeholder="Enter your roll number">
+                </li>
+                <li>
+                    <label for="Branch">Your Branch: </label>
+                    <input type="text" id="branch" placeholder="Enter your branch">
+                </li>
+                <li>
+                    <label for="interest" id="field">Which field interests you the most: </label>
+                    <input type="checkbox" name="interest" value="tech"><label id="g4">Tech</label>
+                    <input type="checkbox" name="interest" value="design"><label id="g5">Design</label>
+                    <input type="checkbox" name="interest" value="Management"><label id="g6">Management</label>
+                </li>
+                <li>
+                    <label for="know" id="know">Languages you already know: </label>
+                    <input type="checkbox" name="know" value="C"><label for="C" id="g7">C</label>
+                    <input type="checkbox" name="know" value="C++"><label for="C++" id="g8">C++</label>
+                    <input type="checkbox" name="know" value="Java"><label for="Java" id="g9">Java</label>
+                    <input type="checkbox" name="know" value="Python"><label for="python" id="g10">Python</label>
+                </li>
+                <li>
+                    <label for="github">Drop your github account link if you have</label>
+                    <input type="text" placeholder="Enter here">
+                </li>
+                <li>
+                    <div class="why">
+                        <div>
+                            <label for="why">Why do you want to join Webwiz?</label>
+                        </div>
+                        <div>
+                            <textarea name="why" id="why1" cols="30" rows="3" placeholder="Enter here" ></textarea>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <br>
+            <div class="low">
+                <input type="submit" value="Submit" id="submit">
+                <input type="reset" value="Reset" id="reset">
+            </div>
+        </div>
+    </form>
+    <div id="result">
+       
+    </div>
+    <footer>
+        <div>
+            THANK YOU FOR SUBMISSION OF THE FORM!!
+        </div>
+    </footer>
+    <script src="Task.js"></script>
+</body>
+
+</html>
